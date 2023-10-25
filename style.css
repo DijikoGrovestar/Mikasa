@@ -1,0 +1,396 @@
+body{
+    background-image: url("assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0px;
+    margin:0px;
+  }
+
+
+.top-navbar{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    background-color: #FFFFFF;
+    align-items:center;
+    flex-direction:row;
+    width: 950px;
+ }
+
+.mikasa-logo{
+    background-color:#FFFFFF;
+}
+
+.top-navbar ul{
+list-style-type:none;
+display:flex;
+color:#AFAFAF;
+justify-content: center;
+align-items: center;
+flex-direction:row;
+text-decoration: none;
+font-size: 12px;
+margin-top: 32px;
+}
+
+.top-navbar ul li:after{
+    content:"|";
+    color:#E3E3E3;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.top-navbar ul li:last-child:after{
+    content:"";
+}
+
+.top-navbar ul li img{
+    width: 10px;
+}
+
+.middle-navbar{
+    border-top: #c3c3c3 1px solid;
+    border-bottom: #c3c3c3 1px solid;
+ }
+
+.middlenavbar-menu{
+    background-color: #D8D6D7;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+.middlenavbar-menu ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: space-between;
+    font-size:14px;
+    margin:auto;
+    align-items:center;
+    flex-direction: row;
+    text-decoration: none;
+    width:950px;
+    padding:0px;
+}
+
+
+.middlenavbar-menu ul li{
+
+  border-right: white 1px solid;
+  padding: 8px 9px;
+    }
+
+.middlenavbar-menu ul li:last-child{
+    border-right: none;
+    padding: 5px 9px;
+}
+
+.middlenavbar-menu ul li .search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.middlenavbar-menu ul li .search-box .search input{
+      font-size: 10px;
+      padding: 2px 8px;
+      line-height: 10px;
+      width: 140px;
+      border-bottom:0px solid #878586;
+      border-right:none;
+   
+}
+
+.middlenavbar-menu ul li .search-box .go-button{
+    margin-left: 8px;
+}
+
+
+.middlenavbar-menu ul li .search-box .go-button button{
+    padding: 2px 3px;
+    border-radius: 3px;
+    border: thin solid #aaaaaa;
+    background-color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.bottom-navbar{
+    background-color: #FFFFFF;
+    border-bottom: #aaaaaa 1px solid;
+  }
+
+.bottomnavbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    margin: auto;
+    width: 930px;
+}
+
+.bottomnavbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:0px;
+}
+
+.bottomnavbar-menu ul li{
+    list-style-type: circle;
+    color: #aaaaaa;
+}
+
+.bottomnavbar-menu ul li:first-child{
+    list-style-type: none;
+}
+
+.bottomnavbar-menu ul li a{
+    padding-right: 25px;
+    color:#626986;
+}
+
+.bridal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.human-logo img{
+    width: 70px;
+    margin: 0 10px;
+}
+
+.bridal .bridal-text{
+    font-size: 12px;
+    color:#5D616A;
+}
+
+.container{
+    margin:0 auto;
+    width:930px;
+     }
+
+.main-content{
+    display:flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image-section img{
+    width:660px;
+   padding-top:5px;
+   padding-left:5px;
+   padding-right:5px;
+
+}
+
+
+.content-section{
+    background-color:#333230;
+    color:#777674;
+    margin: 6px;
+
+    padding: 6px;
+  
+    margin-left: 0px;
+    }
+
+.content-section-details{
+    padding:20px;
+    border:1px solid rgba(166, 166, 166, 0.4);
+     line-height:10px;
+} 
+
+ .content-section-details p{
+    font-size: 12px;
+    color:#82817F;
+    padding-top:5px;
+    line-height:15px;
+}
+
+.content-section-details h2{
+    font-weight: lighter;
+    font-size: 21px;
+    color:#FFFFFF;
+    } 
+
+ .content-section-details ul{
+        font-size:12px;
+        list-style-type: none;
+        text-decoration: none;
+        padding:0px;
+       
+    }
+
+.content-section-details ul li{
+        padding-bottom:10px;
+        border-bottom:1px solid #504F4D;
+        padding-top:13px;
+        color:#FFFFFF;
+        }
+  
+.content-section-details li:last-child{
+    border-bottom: none;
+    padding-bottom:15px;
+}
+
+.detailed-link{
+    color:#6F6E6C;
+    font-size: 13px;
+}
+
+.mikasa-products{
+    display:flex;
+    background-color:#FFFFFF;
+    justify-content: space-between;
+    border:8px solid #2F2D2E;
+    align-items:center;
+    flex-direction:row;
+
+}
+
+.mikasa-products .image-item{
+    height: 170px;
+    width: 297px;
+    background-repeat: no-repeat; 
+}
+
+.mikasa-products .image-item .products-info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-right: 1px solid #aaaaaa;
+    font-size:5em;
+    width:100%;
+}
+
+.products-info h3{
+    font-size:15px;
+    font-weight: lighter;
+    padding:0px 15px;
+    margin-bottom:3px;
+}
+
+.products-info p{
+    font-size:10px;
+    padding:0px 15px;
+    margin-top:0px;
+}
+
+.products-info .product-link ul li{
+    font-size:12px;
+    text-align:right;
+    list-style-type:none;
+    color:#606579;
+    padding: 0px 15px ;
+}
+
+ .mikasa-products .stemware{
+    background-image:url("assets/promo_glass.png");
+    background-position: bottom left;
+
+}
+
+.mikasa-products .accent{
+    background-image:url("assets/promo_plates.png");
+    background-position: bottom;
+}
+
+.mikasa-products .clearance{     
+  background-image:url("assets/promo_album.png");
+  background-position: bottom right;
+}
+
+
+.bottom-section{
+    margin-bottom:30px;
+    justify-content: space-between;
+    flex-direction: row;
+    display:flex;
+    color:#8D8D8B;
+}
+
+.bottom-section ul{
+    display:flex;
+    list-style-type: none;
+    font-size:12px;
+    line-height: 20px;
+}
+
+.mikasa-details ul{
+    list-style-type:none;
+    display:flex;
+    margin-top:3px;
+    margin-bottom: 0px; 
+    padding:0px;
+    padding-top:5px;
+}
+
+.mikasa-details li a{
+    color:#8D8D8B;
+  }
+
+.mikasa-details li:after{
+    content:"|";
+    color:#6F6E6C;
+    padding:5px;
+}
+
+.mikasa-details li:last-child:after{
+    content:"";
+}
+
+.contact-details{
+    color:#8D8D8B;
+    padding-top:8px;
+    padding-left:0px; 
+    margin-top:0px;
+    margin-bottom: 0px;
+    font-size:12px;
+}
+
+.contact-details a{
+    color:#8D8D8B;
+}
+
+.copyright-para{
+    color:#8D8D8B;
+    padding-top:8px;
+    padding-left:0px; 
+    margin-top:0px;
+    font-size:12px;
+}
+
+.sign-up{
+    color:#8D8D8B;
+    padding-top:0px;
+    padding-left:0px; 
+    margin-bottom: 0px;
+    font-size:12px;
+}
+
+.email-input{
+    font-size:8px;
+    padding:3px;
+}
+
+.input-field{
+    margin-top:5px;
+}
+
+.sign-up-button{
+    font-size:8px;
+    padding:3px 8px;
+    border-radius:3px;
+    border-width:thin;
+    border-color:#ABABAB;
+}
