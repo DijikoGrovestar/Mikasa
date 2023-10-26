@@ -4,8 +4,8 @@ body{
     background-repeat: no-repeat;
     padding:0px;
     margin:0px;
-  }
-
+    font-family: "Segoe UI";
+}
 
 .top-navbar{
     display:flex;
@@ -72,12 +72,10 @@ margin-top: 32px;
     padding:0px;
 }
 
-
 .middlenavbar-menu ul li{
-
   border-right: white 1px solid;
   padding: 8px 9px;
-    }
+}
 
 .middlenavbar-menu ul li:last-child{
     border-right: none;
@@ -99,13 +97,11 @@ margin-top: 32px;
       width: 140px;
       border-bottom:0px solid #878586;
       border-right:none;
-   
-}
+   }
 
 .middlenavbar-menu ul li .search-box .go-button{
     margin-left: 8px;
 }
-
 
 .middlenavbar-menu ul li .search-box .go-button button{
     padding: 2px 3px;
@@ -194,42 +190,37 @@ margin-top: 32px;
 
 }
 
-
 .content-section{
     background-color:#333230;
     color:#777674;
     margin: 6px;
-
     padding: 6px;
-  
     margin-left: 0px;
     }
 
 .content-section-details{
     padding:20px;
     border:1px solid rgba(166, 166, 166, 0.4);
-     line-height:10px;
+    line-height:10px;
 } 
 
  .content-section-details p{
     font-size: 12px;
     color:#82817F;
-    padding-top:5px;
-    line-height:15px;
+    line-height:17px;
 }
 
 .content-section-details h2{
     font-weight: lighter;
     font-size: 21px;
     color:#FFFFFF;
-    } 
+ } 
 
  .content-section-details ul{
         font-size:12px;
         list-style-type: none;
         text-decoration: none;
         padding:0px;
-       
     }
 
 .content-section-details ul li{
@@ -237,7 +228,7 @@ margin-top: 32px;
         border-bottom:1px solid #504F4D;
         padding-top:13px;
         color:#FFFFFF;
-        }
+    }
   
 .content-section-details li:last-child{
     border-bottom: none;
@@ -254,50 +245,63 @@ margin-top: 32px;
     background-color:#FFFFFF;
     justify-content: space-between;
     border:8px solid #2F2D2E;
-    align-items:center;
-    flex-direction:row;
-
-}
+ }
 
 .mikasa-products .image-item{
-    height: 170px;
-    width: 297px;
+    height: 180px;
+    width: 280px;
     background-repeat: no-repeat; 
+    background-color:#FFFFFF;
+
 }
 
 .mikasa-products .image-item .products-info{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-right: 1px solid #aaaaaa;
-    font-size:5em;
-    width:100%;
-}
+    width: 100%;
+    height:88%;
+    border-right: 1px solid #aaaaaa; 
+   }
 
-.products-info h3{
-    font-size:15px;
+.mikasa-products .image-item .products-info h3{
+    font-size:14px;
     font-weight: lighter;
-    padding:0px 15px;
-    margin-bottom:3px;
+    padding:0px 10px;
+    margin-bottom:0px;
+    color:black;
 }
 
-.products-info p{
-    font-size:10px;
-    padding:0px 15px;
-    margin-top:0px;
+.mikasa-products .image-item .products-info p{
+    font-size:9px;
+    padding:0px 10px;
+    margin-top:2px;
+    color:#ADADAD;
 }
 
-.products-info .product-link ul li{
-    font-size:12px;
+.mikasa-products .image-item .product-link ul{
+    font-size:11px;
     text-align:right;
     list-style-type:none;
     color:#606579;
-    padding: 0px 15px ;
+    padding: 0px 17px ;
+   
+}
+
+ .mikasa-products .clearance .products-info{
+    width: 145px;
+    border-right: none;
+    }
+
+.mikasa-products .clearance .products-info p{
+    margin-top:5px;
+}
+
+.mikasa-products .clearance .product-link ul {
+    padding-left:0px;
+    margin-right:10px;
 }
 
  .mikasa-products .stemware{
     background-image:url("assets/promo_glass.png");
     background-position: bottom left;
-
 }
 
 .mikasa-products .accent{
@@ -310,14 +314,11 @@ margin-top: 32px;
   background-position: bottom right;
 }
 
-
 .bottom-section{
     margin-bottom:30px;
     justify-content: space-between;
-    flex-direction: row;
     display:flex;
-    color:#8D8D8B;
-}
+  }
 
 .bottom-section ul{
     display:flex;
@@ -381,6 +382,7 @@ margin-top: 32px;
 .email-input{
     font-size:8px;
     padding:3px;
+    width:180px;
 }
 
 .input-field{
